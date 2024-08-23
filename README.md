@@ -146,6 +146,9 @@ The project is divided into two key parts:
 
 Test secured access to your Web Solution by trying to reach
 https://tooling.crabdance.com
+![image](https://github.com/user-attachments/assets/699e0256-2091-4e44-8e75-b509382dbaf2)
+
+
 
 9. **Setting Up Automatic Certificate Renewal**: SSL/TLS certificates from Let’s Encrypt are valid for 90 days. Set up a cron job to renew the certificate every 60 days to ensure continuous security.
 
@@ -158,6 +161,7 @@ https://tooling.crabdance.com
    ```
    * */12 * * * root /usr/bin/certbot renew > /dev/null 2>&1
    ```
+![image](https://github.com/user-attachments/assets/075b8dc8-69d3-463f-a315-25084e3a4c04)
 
 #### Conclusion
 
